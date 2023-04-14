@@ -55,6 +55,9 @@ app.post("/",function(req,res){
         const icon  = weatherdata.weather[0].icon;
 
         const imgurl = "https://openweathermap.org/img/wn/"+ icon +"@2x.png";
+        res.writeHead(200, {
+        'Content-Type': 'text/html'
+    });
         res.write("<html>")
         res.write("<head>")
         res.write("<style>")
@@ -71,7 +74,7 @@ app.post("/",function(req,res){
         res.write("</div>")
         res.write("</body>")   
         res.write("</html>")  
-        res.send();
+        res.end();
     })
 
 })
