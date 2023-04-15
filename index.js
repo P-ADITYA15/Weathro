@@ -62,7 +62,7 @@ app.post("/",function(req,res){
         res.write("<head>")
         res.write("<style>")
         res.write(".content {box-shadow: 5px 5px 8px 5px black;border-radius: 20px;max-width: 500px;margin: 10% auto 10% auto;background: white;padding: 10px;}</style>")
-        res.write("<title>"+place+"<title>");
+        res.write("<title>"+place+"</title>");
         res.write("</head>")
         res.write("<body bgcolor='#a37fe0'>")
         res.write("<div class='content'>")
