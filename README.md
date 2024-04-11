@@ -1,6 +1,6 @@
 # Current-Temperature-with-Nodejs
 
-# To run the Weathro application locally on your machine, follow these steps:
+## To run the Weathro application locally on your machine, follow these steps:
 
 1. **Download the Application:**
    - Visit the GitHub repository for Weathro.
@@ -28,7 +28,7 @@
 Alternatively, you can access the already hosted version of Weathro by visiting [https://weathro.cyclic.app/](https://weathro.cyclic.app/). This version is already deployed and running, so you can explore the application without the need to set it up locally.
 
 
-# Features:
+## Features:
 
 - Live Weather Data: Utilizing the OpenWeatherMap API, WeatherNow fetches the latest weather information for the specified location.
 
