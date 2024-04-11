@@ -1,4 +1,4 @@
-# Current-Temperature-with-Nodejs
+# Weathro
 
 ## To run the Weathro application locally on your machine, follow these steps:
 
